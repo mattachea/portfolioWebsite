@@ -1,6 +1,6 @@
 import "./Navbar.css";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ToysIcon from "@material-ui/icons/Toys";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import CloseIcon from "@material-ui/icons/Close";
@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-title">
-        <Link to="/" onClick={setOpen(false)} className=" nav-item">
+        <Link to="/" onClick={closeOnClick} className=" nav-item">
           <ToysIcon className="nav-icon" />
           Matthew Chea
         </Link>

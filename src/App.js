@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -10,7 +10,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/"></Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route path="/about"></Route>
           <Route path="/projects"></Route>
         </Switch>
