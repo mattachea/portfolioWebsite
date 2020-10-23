@@ -15,10 +15,10 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-title">
-        <Link to="/" onClick={closeOnClick} className=" nav-item">
-          <ToysIcon className="nav-icon" />
+        <a href="/#home" onClick={closeOnClick} className="nav-item">
+          <ToysIcon className="menu-icon" />
           Matthew Chea
-        </Link>
+        </a>
         <div className="menu-icon" onClick={toggleOpen}>
           {isOpen ? <CloseIcon /> : <ReorderIcon />}
         </div>
@@ -26,26 +26,72 @@ export default function Navbar() {
 
       <ul className={isOpen ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/" onClick={closeOnClick} className="nav-item">
+          <a
+            href="/#home"
+            onClick={closeOnClick}
+            className="nav-item list-item"
+          >
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/about" onClick={closeOnClick} className="nav-item">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/projects" onClick={closeOnClick} className="nav-item">
+          <a
+            href="/#projects"
+            onClick={closeOnClick}
+            className="nav-item list-item"
+          >
             Projects
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/contact" onClick={closeOnClick} className="nav-item">
+          <a
+            href="/#contact"
+            onClick={closeOnClick}
+            className="nav-item list-item"
+          >
             Contact
+          </a>
+        </li>
+        <li>
+          <Link
+            to="/#resume"
+            onClick={closeOnClick}
+            className="nav-item list-item"
+          >
+            Resume
           </Link>
         </li>
       </ul>
     </div>
+    // <nav className="navbar">
+    //   <div className="navbar-toggle" onClick={toggleOpen}>
+    //     {isOpen ? <ReorderIcon /> : <CloseIcon />}
+    //   </div>
+    //   <a href="/#home" class="logo">
+    //     logo
+    //   </a>
+    //   <ul className={isOpen ? "main-nav" : "navbar-toggle"}>
+    //     <li>
+    //       <a href="/#home" className="nav-links">
+    //         Home
+    //       </a>
+    //     </li>
+    //     <li>
+    //       <a href="/#projects" className="nav-links">
+    //         Projects
+    //       </a>
+    //     </li>
+    //     <li>
+    //       <a href="/#resume" className="nav-links">
+    //         Resume
+    //       </a>
+    //     </li>
+    //     <li>
+    //       <a href="/#contact" className="nav-links">
+    //         Contact
+    //       </a>
+    //     </li>
+    //   </ul>
+    // </nav>
   );
 }

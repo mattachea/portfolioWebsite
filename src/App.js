@@ -2,19 +2,49 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Home from "./components/Home";
+import Resume from "./components/Resume";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
+const data = {
+  title: "Hi, I'm Matthew.",
+  description:
+    "I'm recent grad from Johns Hopkins University and actively looking for software engineering positions.",
+};
 
 function App() {
   return (
     <div className="App">
+      {/* <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home {...data} />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/projects"></Route>
+        </Switch>
+      </Router> */}
       <Router>
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <section id="home">
+              <Home {...data} />
+            </section>
+            <section id="projects">
+              <Projects />
+            </section>
+            <section id="contact">
+              <Contact />
+            </section>
+            <section id="resume">
+              <Resume />
+            </section>
           </Route>
-          <Route path="/about"></Route>
-          <Route path="/projects"></Route>
         </Switch>
       </Router>
     </div>
