@@ -16,18 +16,6 @@ const data = {
 function App() {
   return (
     <div className="App">
-      {/* <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home {...data} />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
-          <Route path="/projects"></Route>
-        </Switch>
-      </Router> */}
       <Router>
         <Navbar />
         <Switch>

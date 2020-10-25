@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import ToysIcon from "@material-ui/icons/Toys";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import CloseIcon from "@material-ui/icons/Close";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(true);
@@ -53,45 +52,15 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <Link
-            to="/#resume"
+          <a
+            href="/#resume"
             onClick={closeOnClick}
             className="nav-item list-item"
           >
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
     </div>
-    // <nav className="navbar">
-    //   <div className="navbar-toggle" onClick={toggleOpen}>
-    //     {isOpen ? <ReorderIcon /> : <CloseIcon />}
-    //   </div>
-    //   <a href="/#home" class="logo">
-    //     logo
-    //   </a>
-    //   <ul className={isOpen ? "main-nav" : "navbar-toggle"}>
-    //     <li>
-    //       <a href="/#home" className="nav-links">
-    //         Home
-    //       </a>
-    //     </li>
-    //     <li>
-    //       <a href="/#projects" className="nav-links">
-    //         Projects
-    //       </a>
-    //     </li>
-    //     <li>
-    //       <a href="/#resume" className="nav-links">
-    //         Resume
-    //       </a>
-    //     </li>
-    //     <li>
-    //       <a href="/#contact" className="nav-links">
-    //         Contact
-    //       </a>
-    //     </li>
-    //   </ul>
-    // </nav>
   );
 }

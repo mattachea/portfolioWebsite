@@ -4,12 +4,12 @@
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
-
   width: 100%;
   position: fixed;
   top: 0;
   background-color: black;
-  height: 60px;
+  height: 4rem;
+  z-index: 1;
 }
 .nav-title {
   display: flex;
@@ -23,23 +23,25 @@
 }
 .menu-icon {
   display: none;
-  padding-right: 20px;
+  padding-right: 2rem;
 }
 .nav-menu {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-right: 30px;
+  padding-right: 2.5rem;
 }
 li {
   list-style: none;
-  padding: 0 20px 0 0;
+  padding-right: 1.5rem;
 }
 .nav-item {
-  padding-left: 20px;
+  padding-left: 2rem;
   text-decoration: none;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 960px) {
@@ -47,16 +49,17 @@ li {
     display: flex;
     flex-direction: column;
     height: auto;
+    z-index: 1;
   }
   .nav-title {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
+    padding: 1rem;
   }
   .menu-icon {
     display: flex;
-    padding-right: 30px;
+    padding-right: 2.5rem;
     color: white;
   }
   .nav-menu {
@@ -70,6 +73,6 @@ li {
     color: white;
   }
   li {
-    padding: 20px 0px;
+    padding: 2rem 0;
   }
 }

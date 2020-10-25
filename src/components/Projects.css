@@ -1,6 +1,29 @@
 .projects {
-  height: 100vh;
+  background-image: linear-gradient(20deg, rgb(33, 33, 33), rgb(66, 66, 66));
+  width: 100vw;
+  min-height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 4rem 0rem;
+}
+.title {
+  font-size: 2rem;
+  color: white;
+}
+.blah {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 3rem;
+}
+
+@media screen and (max-width: 960px) {
+  .blah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
