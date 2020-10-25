@@ -1,8 +1,14 @@
 .contact {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(20deg, rgb(33, 33, 33), rgb(66, 66, 66));
   color: white;
+}
+.title {
+  padding: 2rem;
+}
+.icon {
+  padding: 2rem;
 }

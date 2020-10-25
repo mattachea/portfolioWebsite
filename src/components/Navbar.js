@@ -53,7 +53,8 @@ export default function Navbar() {
         </li>
         <li>
           <a
-            href="/#resume"
+            href="https://drive.google.com/file/d/1VmSSyy2tCFFy-a3yBTCnQ-DQSZaVwrpF/view?usp=sharing"
+            target="blank"
             onClick={closeOnClick}
             className="nav-item list-item"
           >
