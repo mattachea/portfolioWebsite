@@ -14,7 +14,7 @@
 }
 .info {
   height: 12rem;
-  width: 40rem;
+  max-width: 40rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -53,7 +53,7 @@ p {
     width: 20rem;
   }
   .info {
-    width: 20rem;
+    max-width: 20rem;
   }
   p {
     padding: 0.5rem;

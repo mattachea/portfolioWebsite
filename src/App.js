@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-
+import Footer from "./components/Footer";
 const data = {
   title: "Hi, I'm Matthew Chea.",
   description:
@@ -30,6 +30,7 @@ function App() {
             </section>
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
