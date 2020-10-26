@@ -1,14 +1,15 @@
 .card {
   display: flex;
+  width: 100vw;
   flex-direction: row;
   align-items: center;
-  justify-content: left;
-  padding: 3rem;
+  justify-content: center;
+  padding: 3rem 0rem;
 }
 
 .img {
   width: 30rem;
-  border-radius: 2.5rem;
+  border-radius: 2rem;
   padding: 0rem 1rem;
 }
 .info {
@@ -16,7 +17,7 @@
   width: 40rem;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 2rem;
   align-items: flex-start;
   justify-content: space-between;
   text-align: left;
@@ -53,5 +54,8 @@ p {
   }
   .info {
     width: 20rem;
+  }
+  p {
+    padding: 0.5rem;
   }
 }
