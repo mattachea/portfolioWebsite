@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -15,23 +14,19 @@ const data = {
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <section id="home">
-              <Home {...data} />
-            </section>
-            <section id="projects">
-              <Projects />
-            </section>
-            <section id="contact">
-              <Contact />
-            </section>
-          </Route>
-        </Switch>
-        <Footer />
-      </Router>
+      <Navbar />
+
+      <section id="home">
+        <Home {...data} />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+
+      <Footer />
     </div>
   );
 }

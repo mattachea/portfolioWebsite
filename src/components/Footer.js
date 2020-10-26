@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <a href="https://github.com/mattachea/portfolioWebsite">
-        Designed and Built by Matthew Chea 2020
+        Designed and Built by Matthew Chea.
       </a>
     </div>
   );
