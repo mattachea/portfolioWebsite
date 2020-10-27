@@ -4,7 +4,7 @@ import ReorderIcon from "@material-ui/icons/Reorder";
 import CloseIcon from "@material-ui/icons/Close";
 
 export default function Navbar() {
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   const toggleOpen = () => setOpen(!isOpen);
   const closeOnClick = () => setOpen(false);

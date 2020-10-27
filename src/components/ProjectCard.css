@@ -6,9 +6,8 @@
   justify-content: center;
   padding: 3rem 0rem;
 }
-
 .img {
-  width: 30rem;
+  max-width: 30rem;
   padding: 0rem 1rem;
 }
 .info {
@@ -21,11 +20,9 @@
   justify-content: space-between;
   text-align: left;
 }
-
 .info-sub {
   background-color: rgb(48, 48, 48);
 }
-
 .buttons-container {
   display: flex;
   flex-direction: row;
@@ -47,14 +44,5 @@ p {
 @media screen and (max-width: 960px) {
   .card {
     flex-direction: column;
-  }
-  .img {
-    width: 20rem;
-  }
-  .info {
-    max-width: 20rem;
-  }
-  p {
-    padding: 0.5rem;
   }
 }
