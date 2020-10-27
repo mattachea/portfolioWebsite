@@ -1,7 +1,6 @@
 .footer {
-  height: auto;
-  min-height: 70px;
-  padding: 15px;
+  width: 100vw;
+  padding: 2rem 0rem;
   text-align: center;
 }
 
