@@ -7,6 +7,9 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+body {
+  background-color: rgb(33, 33, 33);
+}
 
 .App {
   text-align: center;
