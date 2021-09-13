@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 const data = {
   title: "Hi, I'm Matthew Chea.",
-  description: "",
+  description: " ",
 };
 
 function App() {
