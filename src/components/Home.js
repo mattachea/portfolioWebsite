@@ -6,11 +6,11 @@ export default function Home(props) {
     <div className="home">
       <div className="container">
         <h1 className="headline">{props.title}</h1>
-        <p className="description">{props.description}</p>
+        {/* <p className="description">{props.description}</p> */}
         <div className="button-container">
-          <a className="button" href="#projects">
+          {/* <a className="button" href="#projects">
             Projects
-          </a>
+          </a> */}
           <a className="button" href="#contact">
             Contact me
           </a>

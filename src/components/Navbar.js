@@ -26,11 +26,11 @@ export default function Navbar() {
             Home
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="/#projects" onClick={closeOnClick} className="nav-item">
             Projects
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="/#contact" onClick={closeOnClick} className="nav-item">
             Contact
