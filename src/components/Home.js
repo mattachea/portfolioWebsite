@@ -12,7 +12,7 @@ export default function Home(props) {
             Projects
           </a> */}
           {/* <a className="button" href="#contact">
-            Contact me
+            Contact me!
           </a> */}
         </div>
       </div>
