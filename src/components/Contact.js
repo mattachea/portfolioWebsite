@@ -11,24 +11,24 @@ export default function Contact() {
       <h1 className="title">Get in touch.</h1>
       <div className="icon-container">
         <a className="icon" href="https://github.com/mattachea" target="blank">
-          <GitHubIcon />
+          <GitHubIcon style={{ fill: "black" }} />
         </a>
         <a
           className="icon"
           href="https://www.linkedin.com/in/matthewchea/"
           target="blank"
         >
-          <LinkedInIcon />
+          <LinkedInIcon style={{ fill: "black" }} />
         </a>
         <a
           className="icon"
           href="https://www.instagram.com/matt.chea/"
           target="blank"
         >
-          <InstagramIcon />
+          <InstagramIcon style={{ fill: "black" }} />
         </a>
         <a className="icon" href="mailto:mattchea242.com" target="blank">
-          <MailOutlineIcon />
+          <MailOutlineIcon style={{ fill: "black" }} />
         </a>
       </div>
     </div>

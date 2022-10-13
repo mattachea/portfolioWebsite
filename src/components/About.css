@@ -1,0 +1,19 @@
+.about {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.blurb {
+  max-width: 40rem;
+  font-size: 1rem;
+  padding: 2rem;
+  text-align: left;
+  color: black;
+}
+.empty {
+  padding: 4rem 0rem;
+}
