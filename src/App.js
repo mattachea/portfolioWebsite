@@ -15,7 +15,7 @@ const HomeData = {
 
 const AboutData = {
   blurb:
-    "i'm matt, a software engineer and recent grad from johns hopkins university. currently based in of nyc ",
+    "i'm matt, a software engineer and recent grad from johns hopkins university. currently based in nyc ",
 };
 
 function App() {
