@@ -7,13 +7,13 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-body {
-  background-color: rgb(33, 33, 33);
-}
+/* body {
+  background-color: rgb(255, 255, 255);
+} */
 
 .App {
   text-align: center;
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(255, 255, 255);
 }
 
 .App-logo {
@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(1rem + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {

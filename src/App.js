@@ -3,12 +3,19 @@ import React from "react";
 import Navbar from "./components/Navbar";
 
 import Home from "./components/Home";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-const data = {
+import About from "./components/About";
+
+const HomeData = {
   title: "Hi, I'm Matthew Chea.",
-  description: " ",
+  description: "",
+};
+
+const AboutData = {
+  blurb:
+    "i'm matt, a software engineer and recent grad from johns hopkins university. currently based in of nyc ",
 };
 
 function App() {
@@ -16,7 +23,10 @@ function App() {
     <div className="App">
       <Navbar />
       <section id="home">
-        <Home {...data} />
+        <Home {...HomeData} />
+      </section>
+      <section id="about">
+        <About {...AboutData} />
       </section>
       {/* <section id="projects">
         <Projects />

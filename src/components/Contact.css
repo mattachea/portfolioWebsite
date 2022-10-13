@@ -5,11 +5,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
 }
 .title {
   padding: 2rem;
+  color: black;
 }
 .icon {
   padding: 2rem;
+}
+.iconStyle {
+  fill: black;
 }
